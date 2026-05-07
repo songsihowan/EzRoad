@@ -1,0 +1,40 @@
+name: map_app_new
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.5
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  flutter_map: ^8.3.0
+  latlong2: ^0.9.1
+  shared_preferences: ^2.5.5
+  uuid: ^4.5.3
+  geolocator: ^14.0.2
+  firebase_core: ^4.7.0
+  cloud_firestore: ^6.3.0
+  firebase_storage: ^13.3.0
+  image_picker: ^1.2.1
+  kakao_map_plugin: ^0.4.0
+  video_player: ^2.9.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/app_icon.png"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/app_icon.png
